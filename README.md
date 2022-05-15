@@ -7,12 +7,12 @@ Prequiste
 -------------------------------
 In order to use this utility you first need to go through the following steps:
 
-1:Create a Google Account,project,bucket and service account.
+- Create a Google Account,project,bucket and service account.
 bucket query Access
-4 target data
-2:Enable billing for your project.
-3:Enable the Google Cloud Storage API.
-4:Setup Authentication.
+- Target data
+- Enable billing for your project.
+- Enable the Google Cloud Storage API.
+- Setup Authentication.
 
 Installation
 -------------------------------
@@ -26,4 +26,9 @@ Java   >=1.8
 
 What's Next
 ------------------------------
-Now that you've to configure your config.propeties and it provide the path while excuting the jar file.	.
+Now that you've to configure your config.propeties and it provide the path while excuting the jar file.
+
+Author: Audax Labs 
+Contact us @ https://audaxlabs.com/contact-us/
+Website: https://audaxlabs.com/
+
