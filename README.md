@@ -1,17 +1,29 @@
-# Getting Started
+GCP-Cloud-Price-Estimator
+===============================
+Google Cloud Price Estimator allows you to calculate and give estimate price of google cloud sotarge object according to region. 
+It will provide both the operational cost and storage cost.
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Prequiste
+-------------------------------
+In order to use this utility you first need to go through the following steps:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.6/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.6/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.6/reference/htmlsingle/#boot-features-developing-web-applications)
+1:Create a Google Account,project,bucket and service account.
+bucket query Access
+4 target data
+2:Enable billing for your project.
+3:Enable the Google Cloud Storage API.
+4:Setup Authentication.
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Installation
+-------------------------------
+Set up a Java development environment and install gsutil.Make sure you're using Python 3.7 or later.
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+for gustil:-https://cloud.google.com/storage/docs/gsutil_install
 
+Supported Python Versions
+Python >= 3.7
+Java   >=1.8
+
+What's Next
+------------------------------
+Now that you've to configure your config.propeties and it provide the path while excuting the jar file.	.
